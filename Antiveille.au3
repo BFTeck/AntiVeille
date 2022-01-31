@@ -1,9 +1,9 @@
 #cs ----------------------------------------------------------------------------
 
     AutoIt Version : 3.3.6.0
-    Auteur:         Kevzi-Frog
+    Auteur:         Kevzi-BFteck
 
-    Fonction du Script : exemple de script empechant la veille.
+    Fonction du Script : script empechant la veille.
     Modèle de Script AutoIt.
 
 #ce ----------------------------------------------------------------------------
@@ -19,7 +19,7 @@ Global $Form1 = GUICreate("Anti-veille ", 237, 114, 356, 80)
 Global $Button1 = GUICtrlCreateButton("Désactiver", 80, 56, 75, 25, $WS_GROUP)
 Global $Label1 = GUICtrlCreateLabel("Pour empêcher la veille...", 16, 24, 205, 17)
 GUISetState(@SW_SHOW)
-#AutoIt3Wrapper_Icon="C:\java\PortableApps\PortableApps\DokuWikiStick\Veille.ico"
+#AutoIt3Wrapper_Icon="Veille.ico"
 #AutoIt3Wrapper_Compression=4
 #AutoIt3Wrapper_Res_Fileversion=1.0
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
